@@ -30,5 +30,5 @@ function arrayCoins(change, coins){
     var coins = [0,0,0,0,0,0];
     var result = arrayCoins(change, coins);
       
-    return coins
+    return result;
   }

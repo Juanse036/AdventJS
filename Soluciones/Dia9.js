@@ -2,7 +2,6 @@
 
 export default function groupBy(collection, it) {
     // ¡No olvides compartir tu solución en redes!
-    var array;
     return collection.reduce((prev, next) => {
         var key;
         if(typeof it === 'function'){

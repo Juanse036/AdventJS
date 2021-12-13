@@ -1,7 +1,5 @@
-//La ruta perfecta para dejar los regaloss
-
 function recorrer(camino, salto){
-    console.log(salto);
+    
       for (var i=0; i < camino.length; i += salto ){
           if (camino[i] == 'X'){
               return false;
@@ -15,14 +13,10 @@ function recorrer(camino, salto){
     var obstaclesmayor = Math.max(...obstacles);
     var camino = [];
     for (var i=0; i < obstaclesmayor + 1; i++ ){
-        camino[i] = i;
+        obstacles.includes(i) ? camino[i] = 'X' : camino[i] = i;
     }
     var salto = 0;
-    var bool = false
-  
-  obstacles.forEach(el => {
-      camino.splice(el, 1,'X');
-  });
+    var bool = false;
   
   do {  
     salto += 1;

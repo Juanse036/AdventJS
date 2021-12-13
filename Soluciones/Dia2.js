@@ -15,8 +15,6 @@ export default function listGifts(letter) {
        }    
      }
    }
-   for (var i = 0; i < listaunica.length; i++) {
-       regalos[listaunica[i]] = indices[i];
-   }
+   listaunica.forEach((ele, idx) => regalos[ele] = indices[idx]);
     return regalos;
    }

@@ -12,7 +12,5 @@ export default function wrapGifts(gifts) {
   
     gifts.splice(0,0,relleno);
     gifts.splice(gifts.length,0,relleno);
-    console.log(gifts);
-    return gifts;
-  
+    return gifts;  
   }
