@@ -1,10 +1,10 @@
-25 DÍAS DE RETOS CON JAVASCRIPT
-
-Soluciones a los retos de https://adventjs.dev/ del 2021
-
-Dia #1 Contando ovejas para dormir
-Dia #2 Ayuda al elfo a listar los regalos!
-Dia #3 El Grinch quiere fastidiar la Navidad
+25 DÍAS DE RETOS CON JAVASCRIPT  
+  
+Soluciones a los retos de https://adventjs.dev/ del 2021  
+  
+Dia #1 Contando ovejas para dormir  
+Dia #2 Ayuda al elfo a listar los regalos!  
+Dia #3 El Grinch quiere fastidiar la Navidad  
 Dia #4 Es hora de poner la navidad en casa!
 Dia #5 Contando los días para los regalos
 Dia #6 Rematando los exámenes finales
